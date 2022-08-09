@@ -20,7 +20,7 @@ Software: Python 3.7.9, Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook
 
 Deliverable 1: Use Resampling Models to Predict Credit Risk
 
-- RandomOverSampler model 
+- RandomOverSampler Model 
 
 The balanced accuracy score is 65%.
 
@@ -53,7 +53,11 @@ Due to the high number of false positives, the low_risk sensitivity is only 40%.
 ![cluster_analysis](https://user-images.githubusercontent.com/96400887/183693506-d39c1744-8490-4217-aafe-0bc3d50a649d.png)
 
 
+- SMOTEENN Model 
 
+The balanced accuracy score is about 62%.
+The high_risk precision is still 1% only with 68% sensitivity which makes a F1 of only 2%.
+Due to the high number of false positives, the low_risk sensitivity is 57%.
 
 ![combinational_analysis](https://user-images.githubusercontent.com/96400887/183689998-7a13781a-d9a6-4103-9cbb-1476fda2da2e.png)
 
