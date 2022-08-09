@@ -91,7 +91,9 @@ Due to a lower number of false positives, the low_risk sensitivity is now 94% wi
 - All the Models analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected. That correlating statistic for this is the recall rate for high risk.
 
 - The Ensemble models brought a lot more improvment specially on the sensitivity of the high risk credits.
-The EasyEnsembleClassifier model shows a recall of 92% so it detects almost all high risk credit. On another hand, with a low precision, a lot of low risk credits are still falsely detected as high risk which would penalize the bank's credit strategy and infer on its revenue by missing those business opportunities.
+The EasyEnsembleClassifier model shows a recall of 92% so it detects almost all high risk credit. On another hand, with a low precision. 
+
+- After analyzing all these statastics I would recommend to use Easy Ensemble Classifying model for predicting high risk loans.
 
 
 
