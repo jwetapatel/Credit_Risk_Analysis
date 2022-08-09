@@ -45,6 +45,11 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 
 - ClusterCentroids Model
 
+Here the balanced accuracy score is down to about 52%.
+The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.
+Due to the high number of false positives, the low_risk sensitivity is only 40%.
+
+
 ![cluster_analysis](https://user-images.githubusercontent.com/96400887/183693506-d39c1744-8490-4217-aafe-0bc3d50a649d.png)
 
 
