@@ -68,10 +68,33 @@ Due to the high number of false positives, the low_risk sensitivity is 57%.
 
 - Balanced Random Forest Classifying
 
+The balanced accuracy score improved to about 79%.
+The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.
+Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
+
 <img width="568" alt="random_forest" src="https://user-images.githubusercontent.com/96400887/183697354-5328bb50-1fa3-4bd7-9154-66664bf179fd.png">
 
 
+- Easy Ensemble Classifying
+- 
+Now, the balanced accuracy score is high to about 93%.
+The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.
+Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
+
+
+
 <img width="565" alt="easy_ensemble" src="https://user-images.githubusercontent.com/96400887/183697380-ffeb4a5f-b9ae-4419-8a75-141c29fd5c75.png">
+
+
+# Summary
+
+- All the Models analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected. That correlating statistic for this is the recall rate for high risk.
+
+- The Ensemble models brought a lot more improvment specially on the sensitivity of the high risk credits.
+The EasyEnsembleClassifier model shows a recall of 92% so it detects almost all high risk credit. On another hand, with a low precision, a lot of low risk credits are still falsely detected as high risk which would penalize the bank's credit strategy and infer on its revenue by missing those business opportunities.
+
+
+
 
 
 
