@@ -66,6 +66,16 @@ Due to the high number of false positives, the low_risk sensitivity is 57%.
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
+- Balanced Random Forest Classifying
+
+<img width="568" alt="random_forest" src="https://user-images.githubusercontent.com/96400887/183697354-5328bb50-1fa3-4bd7-9154-66664bf179fd.png">
+
+
+<img width="565" alt="easy_ensemble" src="https://user-images.githubusercontent.com/96400887/183697380-ffeb4a5f-b9ae-4419-8a75-141c29fd5c75.png">
+
+
+
+
 
 
 
