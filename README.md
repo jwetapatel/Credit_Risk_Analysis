@@ -12,13 +12,13 @@ The purpose of this analysis was to create a supervised machine learning model t
 
 # Resources
 
-Data Source: LoanStats_2019Q1.csv
+- Data Source: LoanStats_2019Q1.csv
 
-Software: Python 3.7.9, Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook 6.0.3
+- Software: Python 3.7.9, Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook 6.0.3
 
 # Results
 
-Deliverable 1: Use Resampling Models to Predict Credit Risk
+### Deliverable 1: Use Resampling Models to Predict Credit Risk
 
 - RandomOverSampler Model 
 
@@ -53,6 +53,8 @@ Due to the high number of false positives, the low_risk sensitivity is only 40%.
 ![cluster_analysis](https://user-images.githubusercontent.com/96400887/183693506-d39c1744-8490-4217-aafe-0bc3d50a649d.png)
 
 
+### Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
+
 - SMOTEENN Model 
 
 The balanced accuracy score is about 62%.
@@ -60,6 +62,9 @@ The high_risk precision is still 1% only with 68% sensitivity which makes a F1 o
 Due to the high number of false positives, the low_risk sensitivity is 57%.
 
 ![combinational_analysis](https://user-images.githubusercontent.com/96400887/183689998-7a13781a-d9a6-4103-9cbb-1476fda2da2e.png)
+
+
+### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 
 
